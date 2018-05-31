@@ -17,7 +17,9 @@ public class Ejercicio3 {
         double promedio[] = new double[6];
 
         for (int i = 0; i < promedio.length; i++) {
-            promedio[i] = (calificacionesProgramacion[i] + calificacionesBasedeDatos[i]) / 2;
+            promedio[i] = (calificacionesProgramacion[i] + calificacionesBasedeDatos[i]) / 2;            
+        }
+        for (int i = 0; i < promedio.length; i++) {
             System.out.println("Promedio del Estudiante " + (i + 1) + " : " + promedio[i]);
         }
     }
